@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario</title>
+        <link rel="stylesheet" href="estilo.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    </head>
+<body>
+
+<!--Link de retorno-->
+
+<!-- Link de retorno -->
+<a href="index.html">Retorne ao Menu</a>
+<br><br>  
+
+<!--Formulário-->
+
+    <h1>Formulário de Interesse</h1>
+
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Dados para cadastro</legend>
+            
+            <label>Nome:</label>
+            <input type="text" name="nome" required><br>
+
+            <label>Email:</label>
+            <input type="email" name="email" required><br>
+
+            <label>Data de Nascimento:</label>
+            <input type="date" name="data_nasc"><br>
+
+            <label>Telefone:</label>
+            <input type="tel" name="telefone"><br>
+
+            <label>CRM:</label>
+            <input type="CRM" name="CRM"><br>
+
+            <label>Sexo:</label>
+            <input type="radio" name="sexo" value="masculino" required> Masculino
+            <input type="radio" name="sexo" value="feminino"> Feminino
+            <input type="radio" name="sexo" value="outro"> Outro<br>
+
+            <label>Estado:</label>
+            <select name="estado">
+                <option value="">Selecione</option>
+                <option value="ac">Acre (AC)</option>
+                <option value="al">Alagoas (AL)</option>
+                <option value="ap">Amapá (AP)</option>
+                <option value="am">Amazonas (AM)</option>
+                <option value="ba">Bahia (BA)</option>
+                <option value="ce">Ceará (CE)</option>
+                <option value="df">Distrito Federal (DF)</option>
+                <option value="es">Espírito Santo (ES)</option>
+                <option value="go">Goiás (GO)</option>
+                <option value="ma">Maranhão (MA)</option>
+                <option value="mt">Mato Grosso (MT)</option>
+                <option value="ms">Mato Grosso do Sul (MS)</option>
+                <option value="mg">Minas Gerais (MG)</option>
+                <option value="pa">Pará (PA)</option>
+                <option value="pb">Paraíba (PB)</option>
+                <option value="pr">Paraná (PR)</option>
+                <option value="pe">Pernambuco (PE)</option>
+                <option value="pi">Piauí (PI)</option>
+                <option value="rj">Rio de Janeiro (RJ)</option>
+                <option value="rn">Rio Grande do Norte (RN)</option>
+                <option value="rs">Rio Grande do Sul (RS)</option>
+                <option value="ro">Rondônia (RO)</option>
+                <option value="rr">Roraima (RR)</option>
+                <option value="sc">Santa Catarina (SC)</option>
+                <option value="sp">São Paulo (SP)</option>
+                <option value="se">Sergipe (SE)</option>
+                <option value="to">Tocantins (TO)</option>
+            </select><br>
+
+            <label>Equipamento de Interesse:</label>
+            <textarea name="Equipamento de Interesse" rows="4" cols="30"></textarea><br>
+
+            <label>Cor favorita:</label>
+            <input type="color" name="cor"><br>
+
+            <label>Instagram:</label>
+            <input type="url" name="site"><br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferências</legend>
+
+            <label><input type="checkbox" name="interesses" value="Whatsapp"> Whatsapp</label>
+            <label><input type="checkbox" name="interesses" value="Ligação"> Ligação</label>
+            <label><input type="checkbox" name="interesses" value="Mensagem"> Mensagem</label><br>
+
+            <label>Qtd. Equipamentos Interessadas:</label>
+            <input type="number" name="Qtd. Equipamentos Interessados:" min="1" max="10"><br>
+
+            <label>Hora de contato:</label>
+            <input type="time" name="hora"><br>
+
+            <label>Mês favorito:</label>
+            <input type="month" name="mes"><br>
+
+        </fieldset>
+
+        <input type="reset" value="Limpar">
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>

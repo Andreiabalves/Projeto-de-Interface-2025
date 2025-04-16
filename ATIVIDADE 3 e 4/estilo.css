@@ -1,0 +1,139 @@
+/* Estilo para index.html */
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #110283;
+    text-align: center;
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #090055;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Estilo para formulario.html */
+
+form {
+    background-color: #ffffff;;
+    padding: 20px;
+    width: 60%;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(5, 1, 44, 0.041);
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+legend {
+    font-weight: bold;
+    color: #110283;
+}
+
+input[type="submit"], input[type="reset"] {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+input[type="submit"] {
+    background-color: #28a745;
+    color: #fff;
+}
+
+input[type="reset"] {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Páginas com cores diferentes */
+
+.index { background-color: #ffffff; }
+.page2 { background-color: #f3f3f3; }
+.page3 { background-color: #e4e4e4; }
+.page4 { background-color: #dbd8ff; }
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 10px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.banner {
+    background-image: url("imagens/imagem1.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 60px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    height: 150px;
+}
+
+.banner h1 {
+    color: #ffffff;
+    font-size: 48px
+}
+
+footer {
+    background-color:#090055;;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+table {
+    font-family: 'Raleway', sans-serif;
+}
+
+td {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+caption {
+    font-family: 'Merriweather', serif;
+}
+
+audio {
+    font-family: 'Courier New', monospace;
+}
